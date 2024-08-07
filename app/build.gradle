@@ -1,5 +1,5 @@
 def config = configHelper.fetchConfig()
-def appId = config.getOrDefault("APPLICATION_ID", "org.openedx.app")
+def appId = config.getOrDefault("APPLICATION_ID", "com.edenmea.learn")
 def platformName = config.getOrDefault("PLATFORM_NAME", "OpenEdx").toLowerCase()
 def firebaseConfig = config.get('FIREBASE')
 def firebaseEnabled = firebaseConfig?.getOrDefault('ENABLED', false)

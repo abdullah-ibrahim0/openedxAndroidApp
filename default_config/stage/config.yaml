@@ -1,10 +1,10 @@
-API_HOST_URL: 'http://localhost:8000'
-APPLICATION_ID: 'org.openedx.app'
-ENVIRONMENT_DISPLAY_NAME: 'Localhost'
-URI_SCHEME: ''
-FEEDBACK_EMAIL_ADDRESS: 'support@example.com'
-FAQ_URL: ''
-OAUTH_CLIENT_ID: 'OAUTH_CLIENT_ID'
+API_HOST_URL: 'https://learn.edenmea.com'
+APPLICATION_ID: 'com.edenmea.learn'
+ENVIRONMENT_DISPLAY_NAME: 'LearnWithEden'
+URI_SCHEME: 'learnwitheden'
+FEEDBACK_EMAIL_ADDRESS: 'support@edenmea.com'
+FAQ_URL: 'http://learn.edenmea.com/faq'
+OAUTH_CLIENT_ID: 'HBELm6xB6remyWpWEjULZagqDNvWHVp7QDof655V'
 
 # Keep empty to hide setting
 AGREEMENT_URLS:
@@ -46,8 +46,8 @@ BRAZE:
   PUSH_NOTIFICATIONS_ENABLED: false
 
 GOOGLE:
-  ENABLED: false
-  CLIENT_ID: ''
+  ENABLED: true
+  CLIENT_ID: '348030729975-79jpjlmmvisno3ot44tdum19bsgtbojg.apps.googleusercontent.com'
 
 MICROSOFT:
   ENABLED: false
@@ -55,9 +55,9 @@ MICROSOFT:
   PACKAGE_SIGNATURE: ''
 
 FACEBOOK:
-  ENABLED: false
-  FACEBOOK_APP_ID: ''
-  CLIENT_TOKEN: ''
+  ENABLED: true
+  FACEBOOK_APP_ID: '493515920027563'
+  CLIENT_TOKEN: '662b74357b3d538235a2d253d30287ad'
 
 BRANCH:
   ENABLED: false
@@ -74,7 +74,7 @@ TOKEN_TYPE: "JWT"
 #feature flag for activating What’s New feature
 WHATS_NEW_ENABLED: false
 #feature flag enable Social Login buttons
-SOCIAL_AUTH_ENABLED: false
+SOCIAL_AUTH_ENABLED: true
 #Course navigation feature flags
 COURSE_NESTED_LIST_ENABLED: false
 COURSE_UNIT_PROGRESS_ENABLED: false
