@@ -8,7 +8,7 @@ Modern vision of the mobile application for the Open edX platform from Raccoon G
 
 1. Check out the source code:
 
-        git clone https://github.com/openedx/openedx-app-android.git
+        git clone https://github.com/abdullah-ibrahim0/openedxAndroidApp.git
 
 2. Open Android Studio and choose Open an Existing Android Studio Project.
 
